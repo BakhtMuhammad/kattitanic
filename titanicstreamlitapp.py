@@ -3,7 +3,7 @@ import pickle
 
 st.title("Kat's Titanic Prediction App!")
 st.image('titanic2.jpg')
-picke_in = open('titanicdataset (2).pkl', 'rb')
+picke_in = open('titanicdatasetupdated.pkl', 'rb')
 classifier = pickle.load(picke_in)
 
 #Defining the function which will make the prediction using the data that user will input
